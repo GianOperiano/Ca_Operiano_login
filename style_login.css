@@ -1,0 +1,171 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	font-size: 2em;
+}
+
+#Title {
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: bold;
+
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+header {
+  background-color: #006400;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+
+header img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+main {
+	padding: 20px;
+}
+
+#intro {
+	margin-bottom: 20px;
+	float: left;
+	width: 60%;
+}
+
+#login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-top: 10px;
+}
+
+form {
+  background-color: #77dd77;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  width: 40%;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  background-color: #fff;
+  box-shadow: 0 0 5px #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#error-msg {
+	color: red;
+	margin-top: 10px;
+}
+
+#forgot-pass {
+	margin-top: 10px;
+}
+
+#login-btn {
+	background-color: #337ab7;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#login-btn:hover {
+background-color: rgba(204, 50, 70, 1);
+}
+
+footer {
+	background-color: #f7f7f7;
+	padding: 20px;
+	display:
+}
+.icon {
+        width: 64px;
+        height: 64px;
+        cursor: pointer;
+      }     
+
+.facebook {
+        background-image: url('sprite.png');
+        background-position: -93px -170px; 
+        width: 52px;
+        height: 52px;
+       
+
+}
+.facebook:hover {
+        background-image: url('sprite.png');
+        background-position: -93px -38px; 
+        width: 52px;
+        height: 52px;
+}
+
+.youtube {
+        background-image: url('sprite.png');
+        background-repeat: no-repeat;
+        background-position: -93px -230px;
+        width: 52px;
+        height: 52px;
+}
+
+.youtube:hover {
+        background-image: url('sprite.png');
+        background-repeat: no-repeat;
+        background-position: -93px -98px;
+        width: 52px;
+        height: 52px;
+}
+
+.link{
+        padding: 5px 10px 5px 10px;
+}
+
+footer {    
+      height: 59px;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      background: #C3B091;
+	  font-family: 'Comic Neue', sans-serif;
+	  font-weight: bold;
+}
